@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+main()
+{
+cout<<"the size of int:"<<sizeof(int(6))<<endl; 
+cout<<"the size of float:"<<sizeof(float(6.00))<<endl;
+cout<<"the size of char:"<<sizeof(char('a'))<<endl;
+cout<<"the size of double:"<<sizeof(34.76)<<endl;
+
+return 0;
+	
+}
