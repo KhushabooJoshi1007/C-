@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	float num1, num2, p;
+cout<<"num1:"<<endl;
+cin>>num1;
+cout<<"the value of num1:"<<num1<<endl;
+
+cout<<"num2"<<endl;
+cin>>num2;
+cout<<"the value of num2:"<<num2<<endl;
+
+p=num1*num2;
+cout<<"the product of num1 and num2 is:"<<p<<endl;
+
+return 0;
+	
+}
