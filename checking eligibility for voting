@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+int age;
+cout<<"enter the age of yours:";
+cin>>age;
+cout<<"your age is:"<<age<<endl;
+ 
+if(age<18)
+{
+	cout<<"your are not eligible you cannot vote."<<endl;
+	cout<<"wait for age 18"<<endl;
+}
+if((age>=18)&&(age<=35))
+{
+	cout<<"yes you are eligible for voting."<<endl;
+	cout<<"You are young citizen your vote is precious to us."<<endl;
+}
+
+if(age>35)
+{
+	cout<<"Yes you can vote."<<endl;
+	
+	return 0;
+}
+
+	
+}
